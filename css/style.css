@@ -22,7 +22,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,
 .navbar-default, .btn {
-  font-family: 'Unica One', cursive;
+  
   font-weight: 400;
 }
 
@@ -36,8 +36,8 @@ h1 {
     color: #ffffff;
     font-size: 52px;
     letter-spacing: 2px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
+    text-align: center;
+    
 }
 
 h2 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  color: #535bd4;
+  color: #59c1e6;
   font-size: 22px;
   line-height: 32px;
   padding-bottom: 4px;
@@ -100,7 +100,7 @@ html{
 }
 
 a {
-  color: #535bd4;
+  color: #59c1e6;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -136,7 +136,6 @@ a:hover, a:active, a:focus {
 
 .section-title {
   position: relative;
-  padding-bottom: 62px;
   text-align: center;
 }
 
@@ -176,7 +175,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #1dc9e3;
+  background-color: #e79bb6;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -213,7 +212,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #535bd4;
+  color: #59c1e6;
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
@@ -239,7 +238,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #1dc9e3;
+    color: #e79bb6;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -251,7 +250,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #1dc9e3;
+    color: #e79bb6;
     background-color: transparent;
 }
 
@@ -275,7 +274,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #535bd4 url('../images/home-bg.jpg') no-repeat;
+    background: #59c1e6 url('../images/home-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -292,9 +291,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background: #4776E6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #59c1e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f1e1c28c , #c88848e0); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #f1e1c28c , #c88848e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -321,7 +320,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn {
-  background: #1dc9e3;
+  background: #e79bb6;
 }
 
 #home .section-btn:hover {
@@ -444,7 +443,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #535bd4;
+  background: #59c1e6;
 }
 
 #pricing .pricing-plan {
@@ -459,11 +458,11 @@ a:hover, a:active, a:focus {
 
 #pricing .pricing-plan .pricing-month h2 {
   font-size: 52px;
-  color: #1dc9e3;
+  color: #e79bb6;
 }
 
 #pricing .pricing-plan .section-btn {
-  background: #1dc9e3;
+  background: #e79bb6;
   position: relative;
   top: 20px;
 }
@@ -479,7 +478,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #newsletter {
-    background: #535bd4 url('../images/newsletter-bg.jpg') no-repeat;
+    background: #59c1e6 url('../images/newsletter-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -571,7 +570,7 @@ footer p {
 -----------------------------------------*/
 
 .modal-dialog .modal-content {
-  background-color: #535bd4;
+  background-color: #59c1e6;
   border: none;
   border-radius: 2px;
   text-align: center;
@@ -768,7 +767,7 @@ footer p {
 }
 
 .go-top:hover {
-    background: #535bd4;
+    background: #59c1e6;
     color: #ffffff;
 }
 
